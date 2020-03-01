@@ -1,0 +1,59 @@
+@font-face{
+    font-family: "Cinzel";
+    src: url(../fonts/CinzelDecorative-Regular.ttf);
+}
+
+@font-face{
+    font-family: "Poppins";
+    src: url(../fonts/Poppins-Regular.otf);
+}
+@font-face{
+    font-family: Cinzel-Decorative-Bold;
+    src: url(../fonts/CinzelDecorative-Bold.otf); 
+}
+@font-face{
+    font-family: Cinzel-Bold;
+    src: url(../fonts/Cinzel-Bold.otf); 
+}
+
+body, html{
+    height: 100%;
+}
+
+body{
+    background: url(../img/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#insert-name{
+    font-family: "Cinzel";
+    color:goldenrod;
+}
+
+#description{
+    font-family: "Poppins";
+    color:white;
+}
+
+.py-5 h1{
+    color:#ffbf00;
+    text-shadow: 0 0 5px black;
+}
+
+.py-5 p{
+    color: antiquewhite;
+    text-shadow: 0 0 5px black;
+}
+#nav{
+    background-color: 	#bf9b30;
+    font-family: Cinzel-Decorative-Bold;
+}
+#nav-items{
+    font-family: Cinzel-Bold;
+}
+#footer{
+    font-family: Cinzel-Decorative-Bold;
+}
+#catalouge-footer{
+    background-color: #bf9b30;
+}
